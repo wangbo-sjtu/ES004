@@ -4,7 +4,7 @@
     .p1{text-indent: 2em;}
 </style>
 	<head>
-		<title>基于安卓平台蓝牙控制的爬楼小车</title>
+		<title>硬件简介&视频演示</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -21,7 +21,7 @@
 								<div class="inner">
 
 									<!-- Logo -->
-										<h1><a href="index.html" id="logo">基于安卓平台蓝牙控制的爬楼小车</a></h1>
+										<h1><a href="index.html" id="logo">基于安卓平台的电子系统综合设计</a></h1>
 
 									<!-- Nav -->
 										<nav id="nav">
@@ -30,9 +30,10 @@
 												<li class="current_page_item">
 													<a href="hardware.html">硬件简介&视频演示</a>
 													<ul>
-														<li><a href="#">项目介绍</a></li>
-														<li><a href="#">硬件简介</a></li>
-														<li><a href="#">视频演示</a></li>
+														<li><a href="#introduce">项目介绍</a></li>
+														<li><a href="#action">动作详解</a></li>
+														<li><a href="#video">视频演示</a></li>
+														<li><a href="#hardware">硬件简介</a></li>
 													</ul>
 												</li>
 												<li><a href="software.html">软件&代码</a></li>
@@ -56,8 +57,12 @@
 									<div class="row">
 										<div class="col-12">
 											<header class="first major">
-												<h2>项目简介</h2>
-												<p style="text-align:left;" class="p1">我们组的小车可以通过蓝牙与手机连接，并通过手机App控制小车的进退状况。小车利用升降的原理进行爬楼。小车共有四组轮子，其中三组为主动轮。</p>
+												<h2 id="introduce">项目简介</h2>
+												<p style="text-align:left;" class="p1">
+													我们组的小车可以通过蓝牙与手机连接，并通过手机App控制小车的进退状况。
+													小车利用升降的原理进行爬楼。小车共有四组轮子，其中三组为主动轮。
+													理想状态下一共有8个阶段，其中1号轮子和4号轮子都是带电机的主动轮，其他都是从动轮，而且升降装置装在2号和4号轮子上。
+												</p>
                                             </header>
 										</div>
 									</div>
@@ -72,23 +77,22 @@
 
 										<!-- Article list -->
 											<section class="box article-list">
-												<h2 class="icon fa-file-alt">动作详解</h2>
+												<h2 class="icon fa-file-alt" id="action">动作详解</h2>
 
-												<!-- Excerpt -->
+												<!-- Step 1 -->
 													<article class="box excerpt">
-														<a href="#" class="image left"><img src="images/2.jpg" alt="" /></a>
+														<a href="images/img1.jpg" class="image left"><img src="images/img1.jpg" alt="" /></a>
 														<div>
 															<header>
 																<span>step 1</span>
 																<h3>前进</h3>
 															</header>
-
 														</div>
 													</article>
 
-												<!-- Excerpt -->
+												<!-- Step 2 -->
 													<article class="box excerpt">
-														<a href="#" class="image left"><img src="images/3.jpg" alt="" /></a>
+														<a href="images/img2.jpg" class="image left"><img src="images/img2.jpg" alt="" /></a>
 														<div>
 															<header>
 																<span>step 2</span>
@@ -97,16 +101,71 @@
 														</div>
 													</article>
 
-												<!-- Excerpt -->
+												<!-- Step 3 -->
 													<article class="box excerpt">
-														<a href="#" class="image left"><img src="images/4.jpg" alt="" /></a>
+														<a href="images/img3.jpg" class="image left"><img src="images/img3.jpg" alt="" /></a>
 														<div>
 															<header>
-																<span class="date">step 3</span>
+																<span>step 3</span>
 																<h3>1号和4号轮子推动小车前进</h3>
 															</header>
 														</div>
 													</article>
+
+												<!-- Step 4 -->
+												<article class="box excerpt">
+													<a href="images/img4.jpg" class="image left"><img src="images/img4.jpg" alt="" /></a>
+													<div>
+														<header>
+															<span>step 4</span>
+															<h3>1号升降装置把2号轮子收回去</h3>
+														</header>
+													</div>
+												</article>
+
+												<!-- Step 5 -->
+												<article class="box excerpt">
+													<a href="images/img5.jpg" class="image left"><img src="images/img5.jpg" alt="" /></a>
+													<div>
+														<header>
+															<span>step 5</span>
+															<h3>1号和4号轮子推动小车前进</h3>
+														</header>
+													</div>
+												</article>
+
+												<!-- Step 6 -->
+												<article class="box excerpt">
+													<a href="images/img6.jpg" class="image left"><img src="images/img6.jpg" alt="" /></a>
+													<div>
+														<header>
+															<span>step 6</span>
+															<h3>主动轮停止转动，2号升降装置把4号轮子收回去</h3>
+														</header>
+													</div>
+												</article>
+
+												<!-- Step 7 -->
+												<article class="box excerpt">
+													<a href="images/img7.jpg" class="image left"><img src="images/img7.jpg" alt="" /></a>
+													<div>
+														<header>
+															<span>step 7</span>
+															<h3>1号轮子推动小车前进，即阶段1</h3>
+														</header>
+													</div>
+												</article>
+
+												<!-- Step 8 -->
+												<article class="box excerpt">
+													<a href="images/img8.jpg" class="image left"><img src="images/img8.jpg" alt="" /></a>
+													<div>
+														<header>
+															<span class="date">step 8</span>
+															<h3>小车继续前进，即阶段2</h3>
+														</header>
+													</div>
+												</article>
 
 											</section>
 									</div>
@@ -114,14 +173,22 @@
 
 										<!-- Spotlight -->
 											<section class="box spotlight">
-												<h2 class="icon fa-file-alt">演示视频</h2>
+												<h2 class="icon fa-file-alt" id="video">演示视频</h2>
 												<article>
-													<video src="images/1.mp4" alt="" width="364px" autoplay muted loop preload="auto"></video>
+													<video src="images/1.mp4" alt="" width="364px" autoplay controls muted loop preload="auto"></video>
 
-													<video src="images/2.mp4" alt="" width="364px" autoplay muted loop preload="auto"></video>
+													<video src="images/2.mp4" alt="" width="364px" autoplay controls muted loop preload="auto"></video>
+												</article>
+												<h2 class="icon fa-file-alt" id="hardware">硬件简介</h2>
+												<article>
 													<header>
-														<h3><a href="#">演示视频</a></h3>
-														<p>展示视频</p>
+														<h3>arduino单片机</h3>
+															<p>将多个不同功能的模拟电路、数字电路模块和微处理器集成在一个芯片上，以提供“单片机”解决方案。</p>
+														<h3>HC-06蓝牙模块</h3>
+															<p>用于接收手机发出的操作信号。</p>
+														<h3>减速电机</h3>
+														<h3>普通电机</h3>
+														<h3>塑料支架、齿条</h3>
 													</header>
 												</article>
 											</section>
